@@ -1,0 +1,58 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+PorterStemmer	../vsm.py	/^from nltk.stem.porter import PorterStemmer$/;"	kind:namespace	line:13
+TextCollection	../vsm.py	/^from nltk.text import TextCollection$/;"	kind:namespace	line:4
+WordPunctTokenizer	../vsm.py	/^from nltk.tokenize import WordPunctTokenizer$/;"	kind:namespace	line:12
+calculateVector	../vsm.py	/^def calculateVector():$/;"	kind:function	line:37
+corpora	../test.py	/^﻿from gensim import corpora, models, similarities$/;"	kind:namespace	line:1
+corpora	../vsm.py	/^from gensim import corpora, models, similarities$/;"	kind:namespace	line:6
+corpus	../test.py	/^corpus = [dictionary.doc2bow(text) for text in texts]$/;"	kind:variable	line:14
+corpus_tfidf	../test.py	/^corpus_tfidf = tfidf[corpus]$/;"	kind:variable	line:19
+dictionary	../test.py	/^dictionary = corpora.Dictionary(texts)$/;"	kind:variable	line:10
+documents	../test.py	/^documents = ["Shipment of gold damaged in a fire","Delivery of silver arrived in a silver truck","Shipment of gold arrived in a truck"]$/;"	kind:variable	line:3
+dom	../read_data_cchit.py	/^﻿import  xml.dom.minidom$/;"	kind:namespace	line:1
+dom	../read_data_smos.py	/^﻿import  xml.dom.minidom$/;"	kind:namespace	line:1
+draw	../vsm.py	/^def draw(sim_list):$/;"	kind:function	line:140
+evaluate	../vsm.py	/^def evaluate(predict, answer):$/;"	kind:function	line:101
+evaluate_labels	../vsm.py	/^def evaluate_labels(art_source, art_target, link):$/;"	kind:function	line:117
+getById	../vsm.py	/^def getById(art_dic, id):$/;"	kind:function	line:134
+load_data	../read_data_cchit.py	/^def load_data():$/;"	kind:function	line:42
+load_data	../read_data_smos.py	/^def load_data():$/;"	kind:function	line:44
+math	../vsm.py	/^import math$/;"	kind:namespace	line:7
+matplotlib	../vsm.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:9
+minidom	../read_data_cchit.py	/^﻿import  xml.dom.minidom$/;"	kind:namespace	line:1
+minidom	../read_data_smos.py	/^﻿import  xml.dom.minidom$/;"	kind:namespace	line:1
+models	../test.py	/^﻿from gensim import corpora, models, similarities$/;"	kind:namespace	line:1
+models	../vsm.py	/^from gensim import corpora, models, similarities$/;"	kind:namespace	line:6
+nltk	../vsm.py	/^import nltk$/;"	kind:namespace	line:5
+np	../vsm.py	/^import numpy as np$/;"	kind:namespace	line:8
+plt	../vsm.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:9
+pretreatment	../vsm.py	/^def pretreatment(content):$/;"	kind:function	line:17
+read_data_cchit	../vsm.py	/^import read_data_cchit$/;"	kind:namespace	line:3
+read_data_cchit.py	../read_data_cchit.py	1;"	kind:file	line:1
+read_data_smos.py	../read_data_smos.py	1;"	kind:file	line:1
+read_file	../read_data_cchit.py	/^def read_file(filename):$/;"	kind:function	line:3
+read_file	../read_data_smos.py	/^def read_file():$/;"	kind:function	line:3
+read_link	../read_data_cchit.py	/^def read_link():$/;"	kind:function	line:28
+read_link	../read_data_smos.py	/^def read_link():$/;"	kind:function	line:30
+run	../vsm.py	/^def run():$/;"	kind:function	line:146
+similarities	../test.py	/^﻿from gensim import corpora, models, similarities$/;"	kind:namespace	line:1
+similarities	../vsm.py	/^from gensim import corpora, models, similarities$/;"	kind:namespace	line:6
+similarity	../vsm.py	/^def similarity(vector_1, vector_2):$/;"	kind:function	line:69
+sns	../vsm.py	/^import seaborn as sns$/;"	kind:namespace	line:10
+stats	../vsm.py	/^from scipy import stats$/;"	kind:namespace	line:11
+stopwords	../vsm.py	/^from nltk.corpus import stopwords$/;"	kind:namespace	line:15
+test	../read_data_cchit.py	/^def test():$/;"	kind:function	line:48
+test	../read_data_smos.py	/^def test():$/;"	kind:function	line:50
+test	../vsm.py	/^def test():$/;"	kind:function	line:212
+test.py	../test.py	1;"	kind:file	line:1
+texts	../test.py	/^texts = [[word for word in document.lower().split()] for document in documents]$/;"	kind:variable	line:6
+tfidf	../test.py	/^tfidf = models.TfidfModel(corpus)$/;"	kind:variable	line:18
+vsm.py	../vsm.py	1;"	kind:file	line:1
+word_tokenize	../vsm.py	/^from nltk.tokenize import word_tokenize$/;"	kind:namespace	line:14
+xml	../read_data_cchit.py	/^﻿import  xml.dom.minidom$/;"	kind:namespace	line:1
+xml	../read_data_smos.py	/^﻿import  xml.dom.minidom$/;"	kind:namespace	line:1
